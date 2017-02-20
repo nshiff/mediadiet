@@ -1,37 +1,30 @@
-
-
 # Following tweepy guide http://tweepy.readthedocs.io/en/v3.5.0/getting_started.html
-
 from credentials import *
 import tweepy
+import json
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
-
 api = tweepy.API(auth)
 
+woeid = {}
+woeid['worldwide'] = 1
+woeid['usa'] = 23424977
+# woeid.chicago = 2379574
+# woeid.newyork = 2459115
+
 '''
-public_tweets = api.home_timeline()
-for tweet in public_tweets:
-    print(tweet.text)
-
-user = api.get_user('heyandy889')
-print(user.screen_name)
-print(user.followers_count)
-print(len(user.friends()))
-for friend in user.friends():
-   print(friend.screen_name)
+locations
+as_of
+created_at
+trends
 '''
 
+trends_available = api.trends_available()
+response = api.trends_place(woeid['usa'])
 
-userA = api.get_user('heyandy889')
-userB = api.get_user('inventonater')
+print(response[0]['as_of'])
+print(response[0]['created_at'])
+print(response[0]['locations'])
 
-
-
-#friendship = api.show_friendship(str(userA.id) + "/" + userA.screen_name, str(userB.id) + "/" + userB.screen_name)
-friendship = api.show_friendship(userA.id, userA.screen_name, userB.id, userB.screen_name)
-friendship = api.show_friendship(source_screen_name=userA.screen_name, target_screen_name=userB.screen_name)
-print(friendship)
-
-
+print(json.dumps(response[0]['trends'], indent=4))
