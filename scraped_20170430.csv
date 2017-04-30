@@ -1,0 +1,234 @@
+news_source,allsides_bias_rating
+ABC News,/bias/left-center
+AllSides,/bias/allsides
+AllSides Community,/bias/allsides
+AlterNet,/bias/left
+American Spectator,/bias/right
+American Thinker,/bias/right
+Aquinas College Saint,/bias/left
+Arkansas Democrat-Gazette,/bias/left
+Associated Press,/bias/center
+Association for Psychological Science,/bias/center
+Atlanta Journal-Constitution,/bias/left-center
+Austin American-Statesman,/bias/left-center
+Barnstable Patriot,/bias/center
+BBC News,/bias/center
+Bearing Drift,/bias/right
+Bloomberg,/bias/center
+Blue Virginia,/bias/left
+Boing Boing,/bias/left
+Boston Globe,/bias/left-center
+Bowling Green Daily News,/bias/left-center
+Breitbart,/bias/right
+Business Insider,/bias/center
+Bustle,/bias/left-center
+Buzzfeed,/bias/left-center
+C-SPAN,/bias/center
+CalMatters,/bias/center
+CalWatchdog,/bias/center
+Care 2,/bias/left
+CBN,/bias/right
+CBS ,/bias/left-center
+Cent. for Strategic and Budgetary Assessments,/bias/right-center
+Center - Major Media Sources,/bias/center
+Center for Public Integrity,/bias/left-center
+Centre View,/bias/left-center
+Chicago Sun-Times,/bias/left-center
+Chicago Tribune,/bias/center
+Christian Science Monitor,/bias/center
+CNBC,/bias/center
+CNN,/bias/center
+CNS News,/bias/right
+CNSNews.com,/bias/right
+Conservative HQ,/bias/right
+Cook Report,/bias/center
+Counter Currents,/bias/left-center
+Counterpointing,/bias/allsides
+CrowdPAC,/bias/center
+CU Independent,/bias/center
+Daily Beast,/bias/center
+Daily Caller,/bias/right-center
+Daily Cardinal,/bias/center
+Daily Kos,/bias/left
+Daily Mail,/bias/right
+Daily Northwestern,/bias/left-center
+Daily Press,/bias/right-center
+Daily Progress,/bias/center
+Daily Targum,/bias/left-center
+Democracy Now,/bias/left
+Deseret News,/bias/right-center
+Diplomatic Courier,/bias/center
+Drudge Report,/bias/right
+Duke Chronicle,/bias/center
+E J Dionne,/bias/left
+Esquire,/bias/left
+Estes Park Trail Gazette,/bias/center
+Eurek Alert,/bias/center
+Fact Checker Blog,/bias/center
+FactCheck.org,/bias/center
+Fair.org,/bias/center
+Falls Church News - Press,/bias/left
+Fiscal Times,/bias/right-center
+FiveThirtyEight,/bias/center
+Forbes,/bias/center
+Fox News,/bias/right
+Fox News Latino,/bias/right
+Frank Miniter,/bias/right
+FrontPage Magazine,/bias/right
+Grist,/bias/left-center
+Hampton Roads Messanger,/bias/center
+Harvard Business School,/bias/left-center
+Herald Democrat,/bias/left
+Honolulu Civil Beat,/bias/center
+HotAir,/bias/right-center
+How Do We Fix It?,/bias/center
+Huffington Post,/bias/left
+Inacow,/bias/right
+Independent Journal Review,/bias/right-center
+Indiana Daily Student,/bias/center
+Indy Online,/bias/center
+Indy Week,/bias/left-center
+InfoWars,/bias/right
+Inside Philanthropy,/bias/center
+Intellectual Conservative,/bias/right-center
+International Business Times,/bias/center
+Investor's Business Daily,/bias/right-center
+IVN,/bias/center
+Journalist's Resource,/bias/center
+Judicial Watch,/bias/right-center
+KQED,/bias/center
+KSL,/bias/right
+Las Vegas Sun,/bias/left-center
+Leesburg Today,/bias/right-center
+Left - Major Media Sources,/bias/left
+Live Action News,/bias/right-center
+Living Room Conversations,/bias/allsides
+Longmont Times-Call,/bias/left-center
+Los Angeles Times,/bias/left-center
+Louisville Courier-Journal,/bias/left-center
+Mark Mix,/bias/right
+Media Matters,/bias/left
+Media Research Center,/bias/right
+Mediaite,/bias/left-center
+Miami Herald,/bias/left-center
+MichelleMalkin.com,/bias/right
+Michigan Daily,/bias/left-center
+MIT News,/bias/center
+Mother Jones,/bias/left
+MSNBC,/bias/left
+National Journal,/bias/center
+National Review,/bias/right
+NBC News,/bias/left-center
+NBC Today Show,/bias/left-center
+New Republic,/bias/left
+New York Daily News,/bias/left
+New York Magazine,/bias/left
+New York Post,/bias/right
+New York Times,/bias/left-center
+Newsmax,/bias/right
+Newsweek,/bias/left-center
+NMPolitics.net,/bias/center
+NPR,/bias/center
+Orange County Register,/bias/right-center
+Pacific Standard,/bias/left-center
+PBS NewsHour,/bias/center
+Peacock Panache,/bias/left
+Pittsburgh Post-Gazette,/bias/right-center
+Politico,/bias/center
+PoliticusUSA,/bias/left
+PolitiFact,/bias/left-center
+Portland Press Herald,/bias/center
+PRI (Public Radio International),/bias/center
+ProCon.org,/bias/allsides
+ProPublica,/bias/center
+PXW News,/bias/center
+Quartz,/bias/center
+Rasmussen Reports,/bias/center
+Raw Story,/bias/left
+Real Clear Politics,/bias/center
+Reason,/bias/right-center
+Record Journal,/bias/center
+Red State,/bias/right
+Reuters,/bias/center
+Richmond Times Dispatch,/bias/right-center
+Right - Major Media Sources,/bias/right
+Right Side News,/bias/right
+Right Wing News,/bias/right
+Rolling Stone,/bias/left
+Salon,/bias/left
+San Jose Mercury News,/bias/left-center
+Science Daily,/bias/center
+Scientific American,/bias/center
+SF Gate,/bias/left-center
+SF Weekly,/bias/center
+Sky-Hi Daily News,/bias/left-center
+Slate,/bias/left-center
+Socialist Alternative,/bias/left
+Socialist Project/The Bullet,/bias/left
+Spokesman Review,/bias/left-center
+State Journal,/bias/left-center
+Suspend Belief Podcast,/bias/allsides
+Tallahassee Democrat,/bias/left
+TechCrunch,/bias/center
+Teen Vogue,/bias/left-center
+Test Source,/bias/center
+The Advocate-Messenger,/bias/left-center
+The Atlantic,/bias/left-center
+The Cadiz Record,/bias/left-center
+The Canyon County Zephyr,/bias/left
+The Commercial Appeal,/bias/left-center
+The Courier-Journal,/bias/left-center
+The Daily Show (humor),/bias/left-center
+The Daily Wire,/bias/right
+The Delaware County Daily Times,/bias/left-center
+The Economist,/bias/left-center
+The Federalist,/bias/right-center
+The Gateway Pundit,/bias/right
+The Guardian,/bias/left-center
+The Hill,/bias/center
+The Intercept,/bias/left
+The Justice,/bias/left-center
+The Korea Herald,/bias/center
+The Libertarian Republic,/bias/right-center
+The Nation,/bias/left
+The Observer (New York),/bias/center
+The Oracle,/bias/center
+The Red and Black,/bias/center
+The Reliable Bias,/bias/center
+The Republican,/bias/center
+The Sacramento Bee,/bias/left-center
+The Salt Lake Tribune,/bias/left-center
+The Telegraph - UK,/bias/right-center
+The Verge,/bias/left-center
+The Week,/bias/center
+TheBlaze,/bias/right
+ThinkProgress,/bias/left
+Time Magazine,/bias/left
+Townhall,/bias/right
+Truth or Fiction ,/bias/center
+TruthOut,/bias/left-center
+U.S. News and World Report,/bias/left-center
+Univision,/bias/left-center
+Upworthy,/bias/left
+USA Today,/bias/center
+Vanity Fair,/bias/left-center
+Volante,/bias/center
+Vox.com,/bias/left-center
+VT Digger,/bias/left-center
+Wall Street Journal- News,/bias/center
+Wall Street Journal- Opinion,/bias/right
+Washington Examiner,/bias/right
+Washington Free Beacon,/bias/right
+Washington Guardian,/bias/right-center
+Washington Monthly,/bias/left-center
+Washington Post,/bias/left-center
+Washington Times,/bias/right-center
+Watchdog.org,/bias/right-center
+Weekly Standard,/bias/right
+Western Journalism,/bias/right
+WFAE,/bias/center
+WGBH,/bias/center
+Wisconsin Gazette,/bias/left-center
+WND.com,/bias/right
+Yahoo News,/bias/left-center
+Yes! Magazine,/bias/left
