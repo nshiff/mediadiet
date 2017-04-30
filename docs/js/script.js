@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 
 
 
-    jQuery('form#beliefs').on('click',function(){
+    jQuery('form#beliefs a').on('click',function(){
         alert('placeholder for science');
     });
 
