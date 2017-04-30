@@ -7,8 +7,23 @@
 
 var Reporter = {
     NEWLINE: "\n",
-    generateReport: function(score_economic, score_social){
 
+    _isNumeric: function(n) {
+        // http://stackoverflow.com/questions/18082/validate-decimal-numbers-in-javascript-isnumeric
+        return !isNaN(parseFloat(n)) && isFinite(n);
+    },
+    _massageNumericInput: function(inputValue){
+        var afterMassage = 0;
+        if(!this._isNumeric(inputValue)){
+            return afterMassage;
+        }
+        afterMassage = Math.min(10, inputValue);
+        afterMassage = Math.max(-10, afterMassage);
+        return afterMassage;
+    },
+    generateReport: function(score_economic, score_social){
+        score_economic = this._massageNumericInput(score_economic);
+        score_social = this._massageNumericInput(score_social);
 
         var report = "";
         report += "<pre>";
