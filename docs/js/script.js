@@ -34,6 +34,24 @@ var Reporter = {
         this.echoline("score_economic: " + score_economic);
         this.echoline("score_social: " + score_social);
 
+
+
+        this.echoline("");
+
+
+        var count_keys = Object.keys(news_dict).length;
+
+        for(var i=0; i<20; i++) {
+            var random_subscript = Math.floor(Math.random() * count_keys);
+            var random_key = Object.keys(news_dict)[random_subscript];
+            var organization_name = pageToName[random_key];
+            var organization_score = news_dict[random_key];
+            this.echoline(organization_name + "," + organization_score);
+        }
+
+
+
+
         return '<pre>' + this._report + '</pre>';
     }
 
