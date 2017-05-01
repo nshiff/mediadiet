@@ -7,7 +7,7 @@
 
 var Reporter = {
     NEWLINE: "\n",
-
+    _report: "",
     _isNumeric: function(n) {
         // http://stackoverflow.com/questions/18082/validate-decimal-numbers-in-javascript-isnumeric
         return !isNaN(parseFloat(n)) && isFinite(n);
@@ -21,23 +21,21 @@ var Reporter = {
         afterMassage = Math.max(-10, afterMassage);
         return afterMassage;
     },
-    generateReport: function(score_economic, score_social){
+
+    echoline: function(line){
+        this._report += line + this.NEWLINE;
+    },
+
+    generateReportAsHtml: function(score_economic, score_social){
+        this._report = "";
         score_economic = this._massageNumericInput(score_economic);
         score_social = this._massageNumericInput(score_social);
+        this.echoline("--- Summary ---");
+        this.echoline("score_economic: " + score_economic);
+        this.echoline("score_social: " + score_social);
 
-        var report = "";
-        report += "<pre>";
-
-        report += "score_economic: " + score_economic;
-        report += this.NEWLINE;
-        report += "score_social: " + score_social;
-
-
-        report += "</pre>";
-        return report;
+        return '<pre>' + this._report + '</pre>';
     }
-
-
 
 };
 
@@ -45,7 +43,7 @@ jQuery(document).ready(function(){
     jQuery('form#beliefs a').on('click',function(){
         var score_economic = jQuery('input#economic').val();
         var score_social = jQuery('input#social').val();
-        var report = Reporter.generateReport(score_economic, score_social);
+        var report = Reporter.generateReportAsHtml(score_economic, score_social);
         jQuery('#output').html(report);
     });
 });
